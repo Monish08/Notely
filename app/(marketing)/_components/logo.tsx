@@ -12,14 +12,14 @@ export default function Logo() {
     return (
         <div className="hidden md:flex items-center gap-x-2">
             <Image
-            src="/notely-logo.svg"
+            src="/favicon.ico"
             height="40"
             width="40"
             alt="Notely Logo"
             className="dark:hidden"
             />
             <Image
-            src="/notely-logo-dark.svg"
+            src="/favicon-dark.ico"
             height="40"
             width="40"
             alt="Notely Logo"
