@@ -4,7 +4,7 @@ Notely is a full-stack note-taking web application inspired by Notion.
 It allows users to create, edit, publish, and share documents in real-time.
 
 🚀 Live Demo:  
-https://note-taking-r3v8tqkpa-monishs-projects-d1fd7b83.vercel.app
+https://note-taking-app-seven-tau.vercel.app
 
 ---
 
