@@ -25,9 +25,9 @@ export const SearchCommand = () => {
 
   const [isMounted, setIsMounted] = useState(false);
 
-  const toggle = useSearch((state) => state.toggle);
-  const isOpen = useSearch((state) => state.isOpen);
-  const onClose = useSearch((state) => state.onClose);
+  const toggle = useSearch((store) => state.toggle);
+  const isOpen = useSearch((store) => state.isOpen);
+  const onClose = useSearch((store) => state.onClose);
 
   // Prevent hydration issues
   useEffect(() => {
@@ -83,3 +83,4 @@ export const SearchCommand = () => {
     </CommandDialog>
   );
 };
+
