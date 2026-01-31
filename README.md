@@ -31,12 +31,6 @@ https://note-taking-r3v8tqkpa-monishs-projects-d1fd7b83.vercel.app
 
 ---
 
-## 📸 Screenshots
-
-(Add screenshots here later if you want)
-
----
-
 ## 🚀 Getting Started (Local Setup)
 
 ```bash
