@@ -1,48 +1,46 @@
-Notely – A Modern Notion-like Workspace
+# 📝 Notely – Notion-like Note Taking App
 
-Notely is a full-stack note-taking and document management application inspired by Notion.
-It allows users to create, edit, publish, and share rich text documents with real-time updates, image uploads, and a clean modern UI.
+Notely is a full-stack note-taking web application inspired by Notion.  
+It allows users to create, edit, publish, and share documents in real-time.
 
-Built with modern web technologies for performance, scalability, and great user experience.
+🚀 Live Demo:  
+https://note-taking-r3v8tqkpa-monishs-projects-d1fd7b83.vercel.app
 
-🚀 Features
+---
 
-✍️ Rich text editor powered by BlockNote
+## ✨ Features
 
-📁 Create, update, and delete documents
+- 🗂 Create & manage documents
+- ✍️ Rich text editor (BlockNote)
+- 🖼 Image upload support (EdgeStore)
+- 🔐 Authentication (Clerk)
+- 🌐 Publish documents & share public preview links
+- 🌙 Light/Dark mode
+- ⚡ Real-time updates (Convex)
 
-🖼 Upload images inside the editor (EdgeStore)
+---
 
-🌐 Publish documents with public preview links
+## 🛠 Tech Stack
 
-🔒 Authentication & user-based access
+- **Frontend:** Next.js 16 (App Router), Tailwind CSS
+- **Backend:** Convex
+- **Auth:** Clerk
+- **Editor:** BlockNote
+- **File Uploads:** EdgeStore
+- **Deployment:** Vercel
 
-⚡ Real-time database updates (Convex)
+---
 
-🌙 Light / Dark mode support
+## 📸 Screenshots
 
-📱 Fully responsive design
+(Add screenshots here later if you want)
 
-🛠 Tech Stack
+---
 
-Frontend
+## 🚀 Getting Started (Local Setup)
 
-Next.js (App Router)
-
-React
-
-Tailwind CSS
-
-BlockNote Editor
-
-Backend
-
-Convex (real-time database & serverless functions)
-
-File Storage
-
-EdgeStore
-
-Authentication
-
-Clerk
+```bash
+git clone https://github.com/Monish08/Notely.git
+cd Notely
+npm install
+npm run dev
